@@ -203,39 +203,39 @@
        <section class="why-us" id="timeline">
             <div class="section-timeline">
                 <div class="container">
-                    <h2 class="heading">Our<span class="bold-green"> Timeline</span></h2>
-                    <p class="lead under-heading text-center">Look at our timer</p>
+                    <h2 class="heading">Nuestro<span class="bold-green"> Proceso</span></h2>
+                    <p class="lead under-heading text-center">Conoce como trabajamos</p>
                     <ul class="timeline">
                         <li>
-                            <div class="timeline-badge"><span class="counteryear">2016</span></div>
+                            <div class="timeline-badge"><span class="counteryear">N° 1</span></div>
                             <div class="timeline-panal wow bounceIn">
                                 <div class="timeline-heading">
-                                    <h4 class="timeline-title">4500 Tours <span class="blue-underline"> Done</span> </h4>
-                                    <p><small class="text-muted"><i class="fa fa-clock-o"></i> 11 hours ago via Twitter </small></p>
+                                    <h4 class="timeline-title">Inicio del <span class="blue-underline"> Proceso</span> </h4>
+                                    <p><small class="text-muted"><i class="fa fa-clock-o"></i> Tiempo necesario para conocerte </small></p>
                                 </div>
-                                <div class="timeline-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor aliquam fugiat excepturi neque est modi ex dolores eaque esse optio commodi, animi similique ut iure nesciunt consectetur sed eos ad.</p></div>
+                                <div class="timeline-body"><p>Tomando en cuenta que tu eres el cliente que nos contrata, nos tomamos el tiempo de conocerte y saber cuales son tus expectativas, tratando de saber si sabes lo que quieres, o necesitas ayuda para llegar a ese punto, y esto es sencillamente por que si no sabes lo que quieres, no sabras que pedirnos que hagamos por ti!!</p></div>
                             </div><!--end of timeline panel-->
                         </li>
                         
                         <li class="timeline-inverted">
-                            <div class="timeline-badge"><span class="counteryear">2015</span></div>
+                            <div class="timeline-badge"><span class="counteryear">N° 2</span></div>
                             <div class="timeline-panal  wow bounceIn">
                                 <div class="timeline-heading">
-                                    <h4 class="timeline-title"><span class="blue-underline">100,000</span> Tours Completed</h4>
-                                    <p><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> 11 hours ago via Twitter </small></p>
+                                    <h4 class="timeline-title"><span class="blue-underline">Planificaciones</span> Futuras</h4>
+                                    <p><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> Es tiempo de que conoscas al equipo </small></p>
                                 </div>
-                                <div class="timeline-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor aliquam fugiat excepturi neque est modi ex dolores eaque esse optio commodi, animi similique ut iure nesciunt consectetur sed eos ad.</p></div>
+                                <div class="timeline-body"><p>Ya sabiendo lo que quieres, es necesario que discutas con los diseñadores y trasmitas tus ideas, esta es la parte mas dificil del procesa ya que involucra que tu puedas expresar lo que que quieres y que nosotros te entendamos, de esta manera hacer un producto de calidad que cumpla con tus expectativas..</p></div>
                             </div><!--end of timeline panel-->
                         </li>
                         
                         <li>
-                            <div class="timeline-badge"><span class="counteryear">2014</span></div>
+                            <div class="timeline-badge"><span class="counteryear">N° 3</span></div>
                             <div class="timeline-panal wow bounceIn">
                                 <div class="timeline-heading">
-                                    <h4 class="timeline-title"><span class="blue-underline">3.9</span> Performance Rate</h4>
-                                    <p><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> 11 hours ago via Twitter </small></p>
+                                    <h4 class="timeline-title"><span class="blue-underline">Cronograma </span> de Trabajo</h4>
+                                    <p><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> Dar un tiempo apropiado a tu necesidad </small></p>
                                 </div>
-                                <div class="timeline-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor aliquam fugiat excepturi neque est modi ex dolores eaque esse optio commodi, animi similique ut iure nesciunt consectetur sed eos ad.</p></div>
+                                <div class="timeline-body"><p>Ya conociendo tus necesidades y requerimientos podemos establecer un tiempo de entrega y hacer un cronograma de actividades de manera que sepas cuando estaran listas cada fase del proyecto y de esta manera tengas la seguridad que tu proyecto esta siendo desarrollado.</p></div>
                             </div><!--end of timeline panel-->
                         </li>
                     </ul>
@@ -249,8 +249,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h2 class="section-title">Biking Counter</h2>
-                            <p class="under-heading">Review our Numbers</p>
+                            <h2 class="section-title">Sistemas Realizados</h2>
+                            <p class="under-heading">Mira Nuestros Numeros</p>
                         </div>
                     </div>
                 </div>
@@ -260,29 +260,29 @@
                             <div class="col-md-3">
                                 <div class="num-data block-inline">
                                     <i class="fa fa-flag fa-5x"></i>
-                                    <div class="counter">34,653</div>
-                                    <p>Tours Completed</p>
+                                    <div class="counter">34</div>
+                                    <p>Páginas Web</p>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="num-data block-inline">
                                     <i class="fa fa-database fa-5x"></i>
-                                    <div class="counter">354</div>
-                                    <p>Performer Cards</p>
+                                    <div class="counter">3</div>
+                                    <p>Apps Android</p>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="num-data block-inline">
                                     <i class="fa fa-bicycle fa-5x"></i>
-                                    <div class="counter">64366</div>
-                                    <p>Included Bikes</p>
+                                    <div class="counter">64</div>
+                                    <p>Diseño General</p>
                                 </div>
                             </div>
                             <div class="col-md-3">
                                 <div class="num-data block-inline">
                                     <i class="fa fa-life-ring fa-5x"></i>
-                                    <div class="counter">1452</div>
-                                    <p>Supports Tickets</p>
+                                    <div class="counter">14</div>
+                                    <p>Programas Desktop</p>
                                 </div>
                             </div>
                         </div>
@@ -295,8 +295,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 wow bounceInDown">
-                            <h2 class="section-title">Leave Your Feedback</h2>
-                            <p class="under-heading">Feel Free to text us</p>
+                            <h2 class="section-title">Quieres Contratarnos???</h2>
+                            <p class="under-heading">Dejanos tu mensaje:</p>
                         </div>
                     </div>
                 </div>
@@ -307,21 +307,21 @@
                             <div class="col-md-6 wow bounceInLeft">
                                 
                                     <div class="form-group">
-                                        <input type="text" placeholder="Your Name" class="form-control input-lg">
+                                        <input type="text" placeholder="Tú Nombre" class="form-control input-lg">
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" placeholder="Your E - Mail" class="form-control input-lg">
+                                        <input type="text" placeholder="Tú E - Mail" class="form-control input-lg">
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" placeholder="Subjet" class="form-control input-lg">
+                                        <input type="text" placeholder="Mensaje" class="form-control input-lg">
                                     </div>
                                 
                             </div>
                             <div class="col-md-6 wow bounceInRight">
                                <div class="form-group">
-                                <textarea placeholder="Your Message" class="form-control "></textarea>
+                                <textarea placeholder="Tú Mensaje" class="form-control "></textarea>
                                </div>
-                               <button class="btn btn-primary btn-block input-lg">SEND MESSAGE</button>
+                               <button class="btn btn-primary btn-block input-lg">ENVIA EL MENSAJE</button>
                             </div>
                         </div>
                         </form>
@@ -351,10 +351,10 @@
                             <p class="footer-text" >Copyright <span class="copyright"> &copy;</span>2017</p>
                         </div>
                         <div class="col-md-4">
-                            <p class="footer-text">Biking Theme</p>
+                            <p class="footer-text">Redes America Mc</p>
                         </div>
                         <div class="col-md-4">
-                            <p class="footer-text">Brought to you by <span class="usama"><a href="https://www.facebook.com/UsamaElsayed90">Usama Elsayed</a></span></p>
+                            <p class="footer-text">RIF: <span class="usama"> J-8962896</a></span></p>
                         </div>
                     </div>
                 </div>
