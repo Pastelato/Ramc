@@ -1,0 +1,386 @@
+warning: LF will be replaced by CRLF in resources/views/master.blade.php.
+The file will have its original line endings in your working directory.
+[1mdiff --git a/resources/views/master.blade.php b/resources/views/master.blade.php[m
+[1mindex 39471e9..09e9f4d 100644[m
+[1m--- a/resources/views/master.blade.php[m
+[1m+++ b/resources/views/master.blade.php[m
+[36m@@ -17,349 +17,42 @@[m
+     </head>[m
+     <body>[m
+        <header class="header" id="HOME">[m
+[31m-                 <!-- Navigation -->[m
+[32m+[m[32m        <!-- Navegacion -->[m
+             [m
+[31m-            <nav class="navbar navbar-default navbar-fixed-top">[m
+[31m-              [m
+[31m-                [m
+[31m-                <div class="container">[m
+[31m-                  [m
+[31m-                    <!-- Brand and toggle get grouped for better mobile display -->[m
+[31m-                    <div class="navbar-header">[m
+[31m-                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#loso-navbar-collapse-1" aria-expanded="false">[m
+[31m-                        <span class="sr-only">Toggle navigation</span>[m
+[31m-                        <span class="icon-bar"></span>[m
+[31m-                        <span class="icon-bar"></span>[m
+[31m-                        <span class="icon-bar"></span>[m
+[31m-                      </button>[m
+[31m-                      <a class="navbar-brand" href="#">[m
+[31m-                          <!-- small size logo -->[m
+[31m-                          <img src="images/logobike.png" alt="logo">[m
+[31m-[m
+[31m-                        </a>[m
+[31m-                    </div>[m
+[31m-[m
+[31m-                <!-- Collect the nav links, forms, and other content for toggling -->[m
+[31m-                <div class="collapse navbar-collapse" id="loso-navbar-collapse-1">[m
+[31m-                  <ul class="nav navbar-nav navbar-right">[m
+[31m-                        <li><a href="#HOME" class="nav-item">INICIO</a></li>[m
+[31m-                        <li><a href="#about" class="nav-item">RAMC</a></li>[m
+[31m-                        <li><a href="#performers" class="nav-item">CREADORES</a></li>[m
+[31m-                        <li><a href="#timeline" class="nav-item">PROCESO</a></li>[m
+[31m-                        <li><a href="#numbers" class="nav-item">ESTADÍSTICAS</a></li>[m
+[31m-                        <li><a href="#contact-us" class="nav-item">CONTACTO</a></li>[m
+[31m-                  </ul>[m
+[31m-                 [m
+[31m-                 [m
+[31m-                </div><!-- /.navbar-collapse -->[m
+[31m-              </div><!-- /.container-fluid -->[m
+[31m-</nav>[m
+[32m+[m[32m            @include("includes.nav")[m
+           [m
+[32m+[m[32m            @include("includes.inicio")[m
+           [m
+[31m-          [m
+[31m-           <div class="header-overlay">[m
+[31m-               <div class="container">[m
+[31m-                   <div class="row">[m
+[31m-                    <div class="col-md-12">[m
+[31m-                        <!--Logo-->[m
+[31m-                        <div class="logo text-center">[m
+[31m-                            <img src="images/logobike.png" height="80px" width="80px" class="logoimg" />[m
+[31m-                        </div>[m
+[31m-                    </div>[m
+[31m-                    <div class="row">[m
+[31m-                    <div class="col-md-8 wow bounceIn">[m
+[31m-                        <div class="header-text">[m
+[31m-                            <h1>Creando Nuevas Experiecias</h1>[m
+[31m-                            <p>Tratando de crecer, crear perfeccionando nuestras aptitudes Web!</p>[m
+[31m-                        </div>[m
+[31m-                        <div class="header-btns">[m
+[31m-                          <a href="#about">[m
+[31m-                              <i class="fa fa-angle-down wow bounceInUp"></i>[m
+[31m-                          </a>[m
+[31m-                        [m
+[31m-                      </div>[m
+[31m-                    </div>[m
+[31m-                    <div class="col-md-4">[m
+[31m-                       <div class="header-col">[m
+[31m-                        [m
+[31m-                         <form role="form" class="header-form">[m
+[31m-                            <h2>Quieres ver Actualizaciones de Ramc?</h2>[m
+[31m-                             <div class="form-group">[m
+[31m-                                 <input type="text" placeholder="Primer Nombre" class="form-control input-3x">[m
+[31m-                             </div>[m
+[31m-                             <div class="form-group">[m
+[31m-                                 <input type="text" placeholder="Primer Apellido" class="form-control input-3x">[m
+[31m-                             </div>[m
+[31m-                             <div class="form-group">[m
+[31m-                                 <input type="text" placeholder="Dirección de E- Mail" class="form-control input-3x">[m
+[31m-                             </div>[m
+[31m-                             <div class="form-group">[m
+[31m-                                 <button type="submit" class="btn btn-primary btn-3x">Enviar Datos <span> <i class="fa fa-angle-double-right"></i> </span></button>[m
+[31m-                             </div>[m
+[31m-                         </form>[m
+[31m-                       </div>[m
+[31m-                        [m
+[31m-                    </div>[m
+[31m-                </div>[m
+[31m-                </div>[m
+[31m-                   <div class="row"></div>[m
+[31m-               </div>[m
+[31m-           </div>[m
+        </header>[m
+[31m-       <!--Section About-->[m
+[31m-       <section id="about">[m
+[31m-          [m
+[31m-           <div class="section-about">[m
+[31m-              <div class="container">[m
+[31m-                  <div class="row">[m
+[31m-                      <div class="col-md-12 wow bounceIn">[m
+[31m-                          <h2 class="section-title">Acerca de RAMC</h2>[m
+[31m-                          <p class="under-heading">Mira lo que hacemos!!</p>[m
+[31m-                      </div>[m
+[31m-                  </div>[m
+[31m-              </div>[m
+[31m-               <div class="section-wrapper">[m
+[31m-                   <div class="container">[m
+[31m-               <div class="row">[m
+[31m-                   <div class="col-md-4 wow bounceInDown">[m
+[31m-                       [m
+[31m-                           <a href="#"><i class="fa fa-user fa-5x square"></i></a>[m
+[31m-                           <h3 class="heading">Sitios Web</h3>[m
+[31m-                           <p class="col-caption">Especializados en crear sitios web, usando las ultimas tecnologías existentes, si quieres tener un sitio de calidad entra y conoce nuestros trabajos!!</p>[m
+[31m-                   </div>[m
+[31m-                       [m
+[31m-                    <div class="col-md-4 wow bounceInDown">[m
+[31m-                       [m
+[31m-                           <a href="#"><i class="fa fa-bicycle fa-5x"></i></a>[m
+[31m-                           <h3 class="heading">Aplicaciones</h3>[m
+[31m-                           <p class="col-caption">Aplicaciones de escritorio, de gran calidad, asi como tambien aplicaciones android personales o de empresa tu elijes lo que necesitas, todo adaptado al gusto del cliente entra para ver mas! </p>[m
+[31m-                           [m
+[31m-                    </div>[m
+[31m-                      [m
+[31m-                    <div class="col-md-4 wow bounceInRight">[m
+[31m-                       [m
+[31m-                           <a href="#"><i class="fa fa-location-arrow fa-5x"></i></a>[m
+[31m-                           <h3 class="heading">Diseño Gráfico</h3>[m
+[31m-                           <p class="col-caption">Especialistas en diseño grafico atendiendo tus necesidades, haciendo creaciones propias a tu gusto! entra para ver algunas creaciones!</p>[m
+[31m-                       [m
+[31m-                    </div>[m
+[31m-               </div>[m
+[31m-           </div>[m
+[31m-               </div>[m
+[31m-           </div>[m
+[31m-           [m
+[31m-       </section><!--end of about section-->[m
+[31m-       <!--Performers Section-->[m
+[31m-       <section class="performer-section" id="performers">[m
+[31m-           <div class="performer wow flipInY">[m
+[31m-            <div class="performer-overlay">[m
+[31m-                      <div class="container">[m
+[31m-                          <div class="row">[m
+[31m-                              <div class="col-md-12">[m
+ [m
+[31m-                                <h2 class="section-title">Creadores</h2>[m
+[32m+[m[32m       <!--Seccion ramc-->[m
+[32m+[m[32m         @include("includes.ramc")[m
+[32m+[m[32m       <!--Seccion ramc-->[m
+[32m+[m
+[32m+[m[32m       <!--seccion creadores-->[m
+[32m+[m[32m         @include("includes.creadores")[m
+[32m+[m[32m       <!--seccion creadores-->[m
+[32m+[m
+[32m+[m
+[32m+[m[32m      <!--seccion tiempo-->[m
+[32m+[m[32m         @include("includes.tiempo")[m
+[32m+[m[32m      <!--seccion tiempo-->[m
+ [m
+[31m-                              </div>[m
+[31m-                          </div>[m
+[31m-                      </div>[m
+[31m-                       <div class="section-wrapper">[m
+[31m-                           <div class="container">[m
+[31m-                           <div class="row">[m
+[31m-                            <div class="col-md-12">[m
+[31m-                            <div id="carousel-performer" class="carousel slide" data-ride="carousel">[m
+[31m-                                  <!-- Indicators -->[m
+[31m-                                  <ol class="carousel-indicators">[m
+[31m-                                    <li data-target="#carousel-performer" data-slide-to="0" class="active"></li>[m
+[31m-                                    <li data-target="#carousel-performer" data-slide-to="1"></li>[m
+[31m-                                    [m
+[31m-                                  </ol>[m
+[31m-                                  <!-- Wrapper for slides -->[m
+[31m-                                  <div class="carousel-inner" role="listbox">[m
+[31m-                                    <div class="item active">[m
+[31m-                                      <img src="../bicycling/images/avatar_01.jpg" alt="Client01">[m
+[31m-                                      <div class="performer-caption">[m
+[31m-                                        <h2>Sergio M. <span class="job"> Programador Senior </span></h2>[m
+[31m-                                        <p>Especializado en programacion orientada objeto, centrado en programacion web backend, listo para unir el diseño y la vida del mismo </p>[m
+[31m-                                      </div>[m
+[31m-                                    </div>[m
+[31m-                                    <div class="item">[m
+[31m-                                      <img src="../bicycling/images/avatar_02.jpg" alt="Client02">[m
+[31m-                                      <div class="performer-caption">[m
+[31m-                                        <h2>Greisy M.<span class="job"> Web Master Senior </span></h2>[m
+[31m-                                        <p>Dedicada al diseño web, maestra del diseño web orientada a darle vida a la interfas con un conocimiento amplio de diseño en programacion web! </p>[m
+[31m-                                      </div>[m
+[31m-                                    </div>[m
+[31m-                                   </div>[m
+[31m-                            [m
+[31m-                           </div>[m
+[31m-                        </div>[m
+[31m-                       </div>[m
+[31m-               [m
+[31m-                       </div>[m
+[31m-                       </div>[m
+[31m-               </div>[m
+[31m-               </div>[m
+[31m-       </section><!--End of Performers-->[m
+[31m-       <section class="why-us" id="timeline">[m
+[31m-            <div class="section-timeline">[m
+[31m-                <div class="container">[m
+[31m-                    <h2 class="heading">Nuestro<span class="bold-green"> Proceso</span></h2>[m
+[31m-                    <p class="lead under-heading text-center">Conoce como trabajamos</p>[m
+[31m-                    <ul class="timeline">[m
+[31m-                        <li>[m
+[31m-                            <div class="timeline-badge"><span class="counteryear">N° 1</span></div>[m
+[31m-                            <div class="timeline-panal wow bounceIn">[m
+[31m-                                <div class="timeline-heading">[m
+[31m-                                    <h4 class="timeline-title">Inicio del <span class="blue-underline"> Proceso</span> </h4>[m
+[31m-                                    <p><small class="text-muted"><i class="fa fa-clock-o"></i> Tiempo necesario para conocerte </small></p>[m
+[31m-                                </div>[m
+[31m-                                <div class="timeline-body"><p>Tomando en cuenta que tu eres el cliente que nos contrata, nos tomamos el tiempo de conocerte y saber cuales son tus expectativas, tratando de saber si sabes lo que quieres, o necesitas ayuda para llegar a ese punto, y esto es sencillamente por que si no sabes lo que quieres, no sabras que pedirnos que hagamos por ti!!</p></div>[m
+[31m-                            </div><!--end of timeline panel-->[m
+[31m-                        </li>[m
+[31m-                        [m
+[31m-                        <li class="timeline-inverted">[m
+[31m-                            <div class="timeline-badge"><span class="counteryear">N° 2</span></div>[m
+[31m-                            <div class="timeline-panal  wow bounceIn">[m
+[31m-                                <div class="timeline-heading">[m
+[31m-                                    <h4 class="timeline-title"><span class="blue-underline">Planificaciones</span> Futuras</h4>[m
+[31m-                                    <p><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> Es tiempo de que conoscas al equipo </small></p>[m
+[31m-                                </div>[m
+[31m-                                <div class="timeline-body"><p>Ya sabiendo lo que quieres, es necesario que discutas con los diseñadores y trasmitas tus ideas, esta es la parte mas dificil del procesa ya que involucra que tu puedas expresar lo que que quieres y que nosotros te entendamos, de esta manera hacer un producto de calidad que cumpla con tus expectativas..</p></div>[m
+[31m-                            </div><!--end of timeline panel-->[m
+[31m-                        </li>[m
+[31m-                        [m
+[31m-                        <li>[m
+[31m-                            <div class="timeline-badge"><span class="counteryear">N° 3</span></div>[m
+[31m-                            <div class="timeline-panal wow bounceIn">[m
+[31m-                                <div class="timeline-heading">[m
+[31m-                                    <h4 class="timeline-title"><span class="blue-underline">Cronograma </span> de Trabajo</h4>[m
+[31m-                                    <p><small class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> Dar un tiempo apropiado a tu necesidad </small></p>[m
+[31m-                                </div>[m
+[31m-                                <div class="timeline-body"><p>Ya conociendo tus necesidades y requerimientos podemos establecer un tiempo de entrega y hacer un cronograma de actividades de manera que sepas cuando estaran listas cada fase del proyecto y de esta manera tengas la seguridad que tu proyecto esta siendo desarrollado.</p></div>[m
+[31m-                            </div><!--end of timeline panel-->[m
+[31m-                        </li>[m
+[31m-                    </ul>[m
+[31m-                    [m
+[31m-                    [m
+[31m-                </div>[m
+[31m-            </div>[m
+[31m-        </section><!--end of timeline-->[m
+[31m-        <section id="numbers">[m
+[31m-            <div class="numbers-section">[m
+[31m-                <div class="container">[m
+[31m-                    <div class="row">[m
+[31m-                        <div class="col-md-12">[m
+[31m-                            <h2 class="section-title">Sistemas Realizados</h2>[m
+[31m-                            <p class="under-heading">Mira Nuestros Numeros</p>[m
+[31m-                        </div>[m
+[31m-                    </div>[m
+[31m-                </div>[m
+[31m-                <div class="section-wrapper">[m
+[31m-                    <div class="container">[m
+[31m-                        <div class="row">[m
+[31m-                            <div class="col-md-3">[m
+[31m-                                <div class="num-data block-inline">[m
+[31m-                                    <i class="fa fa-flag fa-5x"></i>[m
+[31m-                                    <div class="counter">34</div>[m
+[31m-                                    <p>Páginas Web</p>[m
+[31m-                                </div>[m
+[31m-                            </div>[m
+[31m-                            <div class="col-md-3">[m
+[31m-                                <div class="num-data block-inline">[m
+[31m-                                    <i class="fa fa-database fa-5x"></i>[m
+[31m-                                    <div class="counter">3</div>[m
+[31m-                                    <p>Apps Android</p>[m
+[31m-                                </div>[m
+[31m-                            </div>[m
+[31m-                            <div class="col-md-3">[m
+[31m-                                <div class="num-data block-inline">[m
+[31m-                                    <i class="fa fa-bicycle fa-5x"></i>[m
+[31m-                                    <div class="counter">64</div>[m
+[31m-                                    <p>Diseño General</p>[m
+[31m-                                </div>[m
+[31m-                            </div>[m
+[31m-                            <div class="col-md-3">[m
+[31m-                                <div class="num-data block-inline">[m
+[31m-                                    <i class="fa fa-life-ring fa-5x"></i>[m
+[31m-                                    <div class="counter">14</div>[m
+[31m-                                    <p>Programas Desktop</p>[m
+[31m-                                </div>[m
+[31m-                            </div>[m
+[31m-                        </div>[m
+[31m-                    </div>[m
+[31m-                </div>[m
+[31m-            </div>[m
+[31m-        </section>[m
+[31m-        <section id="contact-us">[m
+[31m-            <div class="contact-us">[m
+[31m-                <div class="container">[m
+[31m-                    <div class="row">[m
+[31m-                        <div class="col-md-12 wow bounceInDown">[m
+[31m-                            <h2 class="section-title">Quieres Contratarnos???</h2>[m
+[31m-                            <p class="under-heading">Dejanos tu mensaje:</p>[m
+[31m-                        </div>[m
+[31m-                    </div>[m
+[31m-                </div>[m
+[31m-                <div class="section-wrapper">[m
+[31m-                    <div class="container">[m
+[31m-                        <form role="form">[m
+[31m-                            <div class="row">[m
+[31m-                            <div class="col-md-6 wow bounceInLeft">[m
+[31m-                                [m
+[31m-                                    <div class="form-group">[m
+[31m-                                        <input type="text" placeholder="Tú Nombre" class="form-control input-lg">[m
+[31m-                                    </div>[m
+[31m-                                    <div class="form-group">[m
+[31m-                                        <input type="text" placeholder="Tú E - Mail" class="form-control input-lg">[m
+[31m-                                    </div>[m
+[31m-                                    <div class="form-group">[m
+[31m-                                        <input type="text" placeholder="Mensaje" class="form-control input-lg">[m
+[31m-                                    </div>[m
+[31m-                                [m
+[31m-                            </div>[m
+[31m-                            <div class="col-md-6 wow bounceInRight">[m
+[31m-                               <div class="form-group">[m
+[31m-                                <textarea placeholder="Tú Mensaje" class="form-control "></textarea>[m
+[31m-                               </div>[m
+[31m-                               <button class="btn btn-primary btn-block input-lg">ENVIA EL MENSAJE</button>[m
+[31m-                            </div>[m
+[31m-                        </div>[m
+[31m-                        </form>[m
+[31m-                    </div>[m
+[31m-                    <div class="container">[m
+[31m-                        <div class="row">[m
+[31m-                            <div class="col-md-12">[m
+[31m-                                <div class="social-icons wow slideInDown">[m
+[31m-                                    <ul class="list-unstyled">[m
+[31m-                                        <li><a href="#"><i class="fa fa-facebook fa-3x"></i></a></li>[m
+[31m-                                        <li><a href="#"><i class="fa fa-twitter fa-3x"></i></a></li>[m
+[31m-                                        <li><a href="#"><i class="fa fa-google-plus fa-3x"></i></a></li>[m
+[31m-                                        <li><a href="#"><i class="fa fa-instagram fa-3x"></i></a></li>[m
+[31m-                                    </ul>[m
+[31m-                                </div>[m
+[31m-                            </div>[m
+[31m-                        </div>[m
+[31m-                    </div>[m
+[31m-                </div>[m
+[31m-            </div>[m
+[31m-        </section>[m
+[31m-        <section id="footer">[m
+[31m-            <div class="footer-section">[m
+[31m-                <div class="container">[m
+[31m-                    <div class="row">[m
+[31m-                        <div class="col-md-4">[m
+[31m-                            <p class="footer-text" >Copyright <span class="copyright"> &copy;</span>2017</p>[m
+[31m-                        </div>[m
+[31m-                        <div class="col-md-4">[m
+[31m-                            <p class="footer-text">Redes America Mc</p>[m
+[31m-                        </div>[m
+[31m-                        <div class="col-md-4">[m
+[31m-                            <p class="footer-text">RIF: <span class="usama"> J-8962896</a></span></p>[m
+[31m-                        </div>[m
+[31m-                    </div>[m
+[31m-                </div>[m
+[31m-            </div>[m
+[31m-        </section>[m
+[32m+[m[32m      <!--seccion numeros-->[m
+[32m+[m[32m        @include("includes.numeros")[m
+[32m+[m[32m      <!--seccion tiempo-->[m
+[32m+[m
+[32m+[m[32m      <!--seccion contacto-->[m
+[32m+[m[32m        @include("includes.contacto")[m
+[32m+[m[32m      <!--seccion contacto-->[m
+[32m+[m
+[32m+[m
+[32m+[m[32m      <!--seccion footer-->[m
+[32m+[m[32m        @include("includes.footer")[m
+[32m+[m[32m      <!--seccion footer-->[m
+[32m+[m
+[32m+[m[41m        [m
+[32m+[m[41m        [m
+         <section class="loading-overlay">[m
+        <div class="sk-cube-grid">[m
+         <div class="sk-cube sk-cube1"></div>[m
