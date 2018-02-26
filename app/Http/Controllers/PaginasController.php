@@ -7,10 +7,18 @@ use Illuminate\Http\Request;
 class PaginasController extends Controller
 {
     function home(){
-    	return view('inicio');
+    	return view('home');
     }
 
-    function contacto(){
-    	return view('contacto');
+    function web(){
+    	return view('web');
+    }
+
+    function app(){
+    	return view('app');
+    }
+
+    function diseno(){
+    	return view('diseno');
     }
 }
